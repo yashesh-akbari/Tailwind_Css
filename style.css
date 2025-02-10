@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components{
+  .btn{
+    @apply border border-red-400 px-5 py-1.5 hover:bg-blue-400 
+  }
+  .btn_premie{
+    @apply text-2xl bg-red-50 text-blue-400 hover:bg-blue-600
+  }
+}
